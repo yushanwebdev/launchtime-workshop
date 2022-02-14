@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "leaflet": "^1.6.0",
+    "leaflet": "^1.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "react-leaflet": "^2.7.0",
+    "react-leaflet": "^2.8.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
