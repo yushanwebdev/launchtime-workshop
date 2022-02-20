@@ -12,9 +12,9 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "build": "env-cmd -f ../.env.shared react-scripts build",
+    "build": "env-cmd -f ./.env.shared react-scripts build",
     "develop": "npm run start",
-    "start": "env-cmd -f ../.env.shared react-scripts start"
+    "start": "env-cmd -f ./.env.shared react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
