@@ -85,4 +85,4 @@ For example, if we want to find all of the spots where we should be working for 
 
 ### Credits
 
-A huge thank you to @colbyfayock for creating such valuable content as this
+A huge thank you to [Colby Fayock](https://github.com/colbyfayock) for creating such valuable content as this.
