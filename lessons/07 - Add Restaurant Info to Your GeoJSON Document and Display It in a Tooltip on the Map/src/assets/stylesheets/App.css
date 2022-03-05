@@ -13,3 +13,33 @@ main {
   How can we add a few basic styles to make our popup
   easier to read?
 */
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 0;
+}
+
+.leaflet-popup-content-wrapper a {
+  color: cyan;
+}
+
+.restaurant-popup h3 {
+  font-size: 1.4em;
+  margin-bottom: 0.4em;
+}
+
+.restaurant-popup ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.restaurant-popup li {
+  margin-bottom: 0.4em;
+}
+
+.restaurant-popup li:last-child {
+  margin-bottom: 0;
+}
