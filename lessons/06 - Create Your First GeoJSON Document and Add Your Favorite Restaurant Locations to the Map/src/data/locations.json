@@ -1,3 +1,37 @@
 {
-  "@lesson-06-todo": "In order to store our location data, we'll want to use the GeoJSON format which is essentially a JSON file with a particular schema for geospatial data."
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9094467163086, 38.896377071814506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.08488464355469, 38.89103282648849]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.11748457928218, 38.905793537196274]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.02394527936048, 38.90001597749632]
+      }
+    }
+  ]
 }
