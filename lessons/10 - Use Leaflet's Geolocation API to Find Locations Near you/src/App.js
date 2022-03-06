@@ -148,6 +148,15 @@ function App() {
     map.setView(locationNationalGeographic);
   }
 
+  function handleOnFindLocation() {
+    const { current = {} } = mapRef;
+    const { leafletElement: map } = current;
+
+    map.locate({
+      setView: true,
+    });
+  }
+
   return (
     <Layout>
       <div className="search-actions">
@@ -164,6 +173,9 @@ function App() {
            * relation to our restaurants. How can we find someone's
            * location and add a marker when clicking on a button?
            */}
+          <li>
+            <button onClick={handleOnFindLocation}>Find My Location</button>
+          </li>
         </ul>
       </div>
       <Map ref={mapRef} center={[38.907132, -77.036546]} zoom={12}>
