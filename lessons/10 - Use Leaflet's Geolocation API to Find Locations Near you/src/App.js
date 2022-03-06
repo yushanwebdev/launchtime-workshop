@@ -129,6 +129,9 @@ function App() {
      * After setting our event handler, how can we make sure React
      * cleans up those handlers when the component unmounts?
      */
+    return () => {
+      map.off("locationfound", handleOnLocationFound);
+    };
   }, [mapRef]);
 
   function handleOnLocationFound(event) {
