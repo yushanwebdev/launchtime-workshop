@@ -122,6 +122,7 @@ function App() {
      * If we want to fire custom functionality, how can we listen
      * to events on the map for when a location is found?
      */
+    map.on("locationfound", handleOnLocationFound);
 
     /**
      * @lesson-10-todo Extra Credit
@@ -129,6 +130,16 @@ function App() {
      * cleans up those handlers when the component unmounts?
      */
   }, [mapRef]);
+
+  function handleOnLocationFound(event) {
+    const { current = {} } = mapRef;
+    const { leafletElement: map } = current;
+
+    const latlng = event.latlng;
+
+    const marker = L.marker(latlng);
+    marker.addTo(map);
+  }
 
   function handleOnSetLocation() {
     const { current = {} } = mapRef;
