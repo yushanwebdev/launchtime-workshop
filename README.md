@@ -18,7 +18,7 @@ Once you verified you have all of the environment requirements, we can get start
 - Run:
 
 ```
-git clone https://github.com/colbyfayock/launchtime-workshop
+git clone https://github.com/yushanwebdev/launchtime-workshop
 cd launchtime-workshop
 ```
 
