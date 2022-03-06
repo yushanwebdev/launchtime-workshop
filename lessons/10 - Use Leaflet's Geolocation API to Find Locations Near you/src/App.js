@@ -139,6 +139,15 @@ function App() {
 
     const marker = L.marker(latlng);
     marker.addTo(map);
+
+    const radius = event.accuracy;
+
+    const circle = L.circle(latlng, {
+      radius,
+      color: "#26c6da",
+    });
+
+    circle.addTo(map);
   }
 
   function handleOnSetLocation() {
